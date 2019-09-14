@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href=./.css">
+</head>
+
+<body>
+    <div id="app">
+       <button @click="getUserinfo">获取人员信息</button>
+    </div>
+</body>
+<script src="./vue.js"></script>
+<script>
+    // var vm = new Vue({
+    //     el: "#app",
+    //     data() {
+    //         return {
+    //             apiUrl: "http://110.80.38.74:6661/api/v2/employee/get/?key=48ebcni1xafyxlez7zmfs5sja55dibrmvkaerkcgznky"
+    //         }
+    //     },
+    //     methods: {
+    //         getUserinfo() {
+    //             axios.post(apiUrl, {
+    //                 "pinlist": "",
+    //                 "deptnumberlist": "1",
+    //                 "fetch_child": 0
+    //             }).then(function (res) {
+    //                 var resData = res.data;
+    //                 if (resData.status == "0") {
+    //                     alert(resData.message);
+    //                 } else {
+    //                     alert(resData.message);
+    //                 }
+    //             })
+    //         }
+    //     },
+    // })
+</script>
+
+</html>

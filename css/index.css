@@ -1,0 +1,30 @@
+
+.container-fluid{
+    background: #efefef;
+}
+.card{
+    margin: 2px;
+    animation: card 1s;
+}
+@keyframes card{
+    from{transform: rotateX(90deg)};
+    to{transform: rotateX(0deg)};
+}
+img{
+    transition: all 0.5s;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.progress:hover{
+    box-shadow: 0 0 2px black;
+}
+.card-title,.card-header{
+    font-weight: bold;
+}
+tr:nth-child(odd){
+    background:#efefef;
+}
+textarea{
+    resize: none;
+}
